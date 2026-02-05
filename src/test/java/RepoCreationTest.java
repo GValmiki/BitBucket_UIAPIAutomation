@@ -1,8 +1,5 @@
-import base.ProjectCreationPage;
-import base.RepoCreationPage;
+import pages.RepoCreationPage;
 import org.testng.annotations.Test;
-
-import java.util.List;
 
 public class RepoCreationTest extends BaseTest{
 
