@@ -1,24 +1,24 @@
-package utils;
+// package utils;
 
-import org.testng.IRetryAnalyzer;
-import org.testng.ITestResult;
+// import org.testng.IRetryAnalyzer;
+// import org.testng.ITestResult;
 
-public class RetryAnalyzer implements IRetryAnalyzer {
+// public class RetryAnalyzer implements IRetryAnalyzer {
 
-    private int retryCount = 0;
-    private static final int maxRetryCount = 2;
+//     private int retryCount = 0;
+//     private static final int maxRetryCount = 2;
 
-    @Override
-    public boolean retry(ITestResult result) {
+//     @Override
+//     public boolean retry(ITestResult result) {
 
-        if (retryCount < maxRetryCount) {
-            retryCount++;
+//         if (retryCount < maxRetryCount) {
+//             retryCount++;
 
-            // store retry count in result attributes
-            result.setAttribute("RETRY_COUNT", retryCount);
+//             // store retry count in result attributes
+//             result.setAttribute("RETRY_COUNT", retryCount);
 
-            return true;
-        }
-        return false;
-    }
-}
+//             return true;
+//         }
+//         return false;
+//     }
+// }
